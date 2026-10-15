@@ -8,8 +8,8 @@ import requests
 GITHUB_API = "https://api.github.com"
 API_VERSION = "2026-03-10"
 
-USERNAME = os.environ.get("GITHUB_USERNAME")
-TOKEN = os.environ.get("GITHUB_TOKEN")
+USERNAME = "LukasGX"
+TOKEN = os.environ.get("ACCESS_TOKEN")
 
 
 if not USERNAME:
