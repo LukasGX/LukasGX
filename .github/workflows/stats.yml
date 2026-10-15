@@ -29,8 +29,7 @@ jobs:
 
       - name: Generate statistics
         env:
-          GITHUB_USERNAME: LukasGX
-          GITHUB_TOKEN: ${{ secrets.GITHUB_STATS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           python scripts/github_stats.py
 
