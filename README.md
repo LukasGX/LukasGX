@@ -20,12 +20,6 @@
 
 ---
 
-## 📈 GitHub Stats
-
-![LukasGX's GitHub stats](https://github-readme-stats.vercel.app/api?username=LukasGX&show_icons=true&theme=radical)
-
----
-
 ## ✨ Let’s Connect
 
 Feel free to check out my repositories or reach out if you want to collaborate or chat about tech!
