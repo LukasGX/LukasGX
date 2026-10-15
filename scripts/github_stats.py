@@ -144,6 +144,10 @@ def calculate_statistics(repositories):
         # Commit / line statistics
         # ---------------------------------------------------------
 
+        if owner.lower() == USERNAME.lower() and name.lower() == USERNAME.lower():
+            print(f"Skipping profile repository: {owner}/{name}")
+            continue
+
         contributors = get_contributor_stats(owner, name)
 
         for contributor in contributors:
