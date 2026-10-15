@@ -142,8 +142,6 @@ def calculate_statistics(repositories):
         owner = repository["owner"]["login"]
         name = repository["name"]
 
-        print(f"Processing repository: {owner}/{name}")
-
         # ---------------------------------------------------------
         # Commit / line statistics
         # ---------------------------------------------------------
@@ -395,11 +393,7 @@ def generate_stats_svg(statistics, output_path="github-stats.svg"):
         file.write("\n".join(svg))
 
 def main():
-    print(f"Collecting GitHub statistics for {USERNAME}...\n")
-
     repositories = get_repositories()
-
-    print(f"Found {len(repositories)} repositories.\n")
 
     statistics = calculate_statistics(repositories)
 
@@ -408,29 +402,6 @@ def main():
     )
 
     generate_stats_svg(statistics)
-
-    print("\n" + "=" * 50)
-    print("GitHub Statistics")
-    print("=" * 50)
-
-    print(f"Commits:       {statistics['commits']:,}")
-    print(f"Lines added:   {statistics['added']:,}")
-    print(f"Lines deleted: {statistics['deleted']:,}")
-    print(f"Net lines:     {statistics['net']:,}")
-
-    print("\nLanguages:")
-
-    for language, percentage in sorted(
-        language_percentages.items(),
-        key=lambda item: item[1],
-        reverse=True,
-    ):
-        if percentage < 0.01:
-            continue
-        
-        print(f"  {language:<20} {percentage:6.2f}%")
-
-    print("=" * 50)
 
 
 if __name__ == "__main__":
