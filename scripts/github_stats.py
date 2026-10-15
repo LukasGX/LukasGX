@@ -27,33 +27,31 @@ session.headers.update(
 
 
 def github_get(url, **params):
-    """
-    Perform a GET request against the GitHub API.
-
-    GitHub's statistics endpoints may initially return HTTP 202
-    while GitHub calculates the statistics, so retry those requests.
-    """
-    for attempt in range(10):
-        response = session.get(url, params=params, timeout=30)
+    for attempt in range(20):
+        response = session.get(url, params=params)
 
         if response.status_code == 200:
             return response.json()
 
         if response.status_code == 202:
-            time.sleep(min(2 + attempt * 2, 10))
+            print(
+                f"GitHub statistics are being generated "
+                f"(attempt {attempt + 1}/20)..."
+            )
+            time.sleep(5)
             continue
 
         if response.status_code == 204:
-            return None
+            return []
 
-        print(
+        raise RuntimeError(
             f"GitHub API error {response.status_code}: "
-            f"{response.text}",
-            file=sys.stderr,
+            f"{response.text}"
         )
-        response.raise_for_status()
 
-    raise RuntimeError(f"GitHub statistics were not ready: {url}")
+    raise RuntimeError(
+        f"GitHub statistics were not ready after 100 seconds: {url}"
+    )
 
 
 def get_repositories():
