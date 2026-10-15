@@ -35,3 +35,5 @@ Feel free to check out my repositories or reach out if you want to collaborate o
 > “Code is like humor. When you have to explain it, it’s bad.” — Cory House
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=LukasGX)](https://git.io/streak-stats)
+
+<img src="./github-stats.svg" alt="GitHub Coding Statistics">
