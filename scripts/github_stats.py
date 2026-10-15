@@ -11,13 +11,8 @@ API_VERSION = "2026-03-10"
 USERNAME = "LukasGX"
 TOKEN = os.environ.get("ACCESS_TOKEN")
 
-
-if not USERNAME:
-    print("ERROR: GITHUB_USERNAME is not set.", file=sys.stderr)
-    sys.exit(1)
-
 if not TOKEN:
-    print("ERROR: GITHUB_TOKEN is not set.", file=sys.stderr)
+    print("ERROR: ACCESS_TOKEN is not set.", file=sys.stderr)
     sys.exit(1)
 
 
