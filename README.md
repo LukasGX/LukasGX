@@ -25,21 +25,21 @@ Most of my projects are experiments, tools, or things I needed myself. I like fi
 
 ## Some of my projects
 
-### GXCode
+### <img src="gxcode-logo.png" alt="GXCode Logo" style="height: 1.3rem"> GXCode
 
 My own programming language and interpreter written in C#/.NET.
 
-### DecisionTreeGenerator
+### <img src="dtg-logo.png" alt="DecisionTreeGenerator Logo" style="height: 1.3rem"> DecisionTreeGenerator
 
 A decision-tree generator written in C#, supporting different data formats and configurable schemas.
 
-### OwnWiki
+### <img src="ownwiki-logo.png" alt="OwnWiki Logo" style="height: 1.3rem"> OwnWiki
 
 A wiki system I built myself, inspired by MediaWiki.
 
 ## A few things about me
 
-- 🐧 Proud linux user
+- 🐧 Proud Linux user
 - 🇳🇴 Currently learning Norwegian
 - 🧗 I like climbing
 - 🔧 I enjoy building things just to see if I can
