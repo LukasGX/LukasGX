@@ -28,6 +28,6 @@ Feel free to check out my repositories or reach out if you want to collaborate o
 
 > “Code is like humor. When you have to explain it, it’s bad.” — Cory House
 
-<img src="./profile/streak.svg" alt="GitHub Streak Stata">
+<img src="./profile/streak.svg" alt="GitHub Streak Stats">
 
 <img src="./github-stats.svg" alt="GitHub Coding Statistics">
