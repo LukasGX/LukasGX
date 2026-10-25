@@ -46,26 +46,26 @@
         
 <rect width="100%" height="100%" rx="16" class="background"/>
 <text x="40" y="52" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" class="primary">CODING STATISTICS</text>
-<text x="112.5" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" class="primary">1,120</text>
+<text x="112.5" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" class="primary">1,121</text>
 <text x="112.5" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="0.5" class="secondary">COMMITS</text>
-<text x="337.5" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" class="primary">1,614,830</text>
+<text x="337.5" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" class="primary">1,614,870</text>
 <text x="337.5" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="0.5" class="secondary">LINES ADDED</text>
-<text x="562.5" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" class="primary">98,081</text>
+<text x="562.5" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" class="primary">98,105</text>
 <text x="562.5" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="0.5" class="secondary">LINES DELETED</text>
-<text x="787.5" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" class="primary">1,516,749</text>
+<text x="787.5" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" class="primary">1,516,765</text>
 <text x="787.5" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="0.5" class="secondary">NET LINES</text>
 <text x="40" y="175" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" class="primary">LANGUAGES</text>
 <text x="40" y="240" font-family="Arial, Helvetica, sans-serif" font-size="14" class="primary">C#</text>
 <rect x="160" y="227" width="500" height="16" rx="8" class="bar-background"/>
-<rect x="160" y="227" width="111.98" height="16" rx="8" class="bar"/>
-<text x="860" y="240" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">22.40%</text>
+<rect x="160" y="227" width="111.97" height="16" rx="8" class="bar"/>
+<text x="860" y="240" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">22.39%</text>
 <text x="40" y="274" font-family="Arial, Helvetica, sans-serif" font-size="14" class="primary">JavaScript</text>
 <rect x="160" y="261" width="500" height="16" rx="8" class="bar-background"/>
-<rect x="160" y="261" width="111.21" height="16" rx="8" class="bar"/>
+<rect x="160" y="261" width="111.20" height="16" rx="8" class="bar"/>
 <text x="860" y="274" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">22.24%</text>
 <text x="40" y="308" font-family="Arial, Helvetica, sans-serif" font-size="14" class="primary">HTML</text>
 <rect x="160" y="295" width="500" height="16" rx="8" class="bar-background"/>
-<rect x="160" y="295" width="81.59" height="16" rx="8" class="bar"/>
+<rect x="160" y="295" width="81.58" height="16" rx="8" class="bar"/>
 <text x="860" y="308" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">16.32%</text>
 <text x="40" y="342" font-family="Arial, Helvetica, sans-serif" font-size="14" class="primary">PHP</text>
 <rect x="160" y="329" width="500" height="16" rx="8" class="bar-background"/>
@@ -73,8 +73,8 @@
 <text x="860" y="342" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">8.21%</text>
 <text x="40" y="376" font-family="Arial, Helvetica, sans-serif" font-size="14" class="primary">Python</text>
 <rect x="160" y="363" width="500" height="16" rx="8" class="bar-background"/>
-<rect x="160" y="363" width="40.79" height="16" rx="8" class="bar"/>
-<text x="860" y="376" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">8.16%</text>
+<rect x="160" y="363" width="40.84" height="16" rx="8" class="bar"/>
+<text x="860" y="376" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">8.17%</text>
 <text x="40" y="410" font-family="Arial, Helvetica, sans-serif" font-size="14" class="primary">CSS</text>
 <rect x="160" y="397" width="500" height="16" rx="8" class="bar-background"/>
 <rect x="160" y="397" width="39.95" height="16" rx="8" class="bar"/>
@@ -93,7 +93,7 @@
 <text x="860" y="512" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">2.29%</text>
 <text x="40" y="546" font-family="Arial, Helvetica, sans-serif" font-size="14" class="primary">Dart</text>
 <rect x="160" y="533" width="500" height="16" rx="8" class="bar-background"/>
-<rect x="160" y="533" width="3.37" height="16" rx="8" class="bar"/>
+<rect x="160" y="533" width="3.36" height="16" rx="8" class="bar"/>
 <text x="860" y="546" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" class="secondary">0.67%</text>
 <text x="40" y="580" font-family="Arial, Helvetica, sans-serif" font-size="14" class="primary">C++</text>
 <rect x="160" y="567" width="500" height="16" rx="8" class="bar-background"/>
